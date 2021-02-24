@@ -7,7 +7,7 @@ function multiplyBy()
         var Lvl = parseInt(document.getElementById("LVL").value);
      
 
-        for(let obj of testModel){      
+        for(let obj of ID457){      
         for(let singleStat in obj.Stats){
 
                 for(let growth in obj.Growth ){

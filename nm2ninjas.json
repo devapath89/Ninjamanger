@@ -14,12 +14,7 @@
       "Gen": 20
     },
     "Growth": {
-      "Tai": 6.3,
-      "Nin": 1.5,
-      "Buki": 0.5,
-      "Sta": 2.5,
-      "Ele": 2,
-      "Gen": 2.5
+    
     },
     "Ability": [
       "iron-claw",
