@@ -3,6 +3,7 @@
 
 function multiplyBy()
 {
+        document.getElementById("result").innerHTML = ""
         var Lvl = parseInt(document.getElementById("LVL").value);
      
 
