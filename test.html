@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEst</title>
+    <script src="./nm2ninjas.json"></script>
+    
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+        
+
+    <div id="test123">
+       
+    </div>
+    <!-- <div class="grid-container">
+        <div class="Chakra-cost-cost"></div>
+        <div class="ninja1"></div>
+        <div class="ninja-ID"></div>
+        <div class="Genin"></div>
+        <div class="the-cost"></div>
+        <div class="lvl"></div>
+        <div class="the-acc-lvl"></div>
+        <div class="quarterable\\\?"></div>
+        <div class="yes-or-no-\\\?"></div>
+        <div class="quarterable2\\\\\\\?"></div>
+        <div class="no-or-yes"></div>
+        <div class="stat-point-used-\\\?d"></div>
+        <div class="used-stats"></div>
+        <div class="statpoints"></div>
+        <div class="seal-\\\(from-10-to-\\\+10\\\)"></div>
+        <div class="seal-lvl"></div>
+        
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+         
+        <div class="is-off\\\?"></div>
+        <div class="off-Yo-N-\\\?"></div>
+        <div class="yey-or-no"></div>
+        <div class="off-poss"></div>
+        <div class="Penalty"></div>
+        <div class="Penalty-\\\%"></div>
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="Blood-line"></div>
+        <div class="BL-lvl"></div>
+        <div class="Stats"></div>
+        <div class="Efficient"></div>
+        <div class="chosen-BL"></div>
+        <div class="chosen-BL-LVl"></div>
+        <div class="cant-be-chosen-"></div>
+        <div class="tai-\\\+"></div>
+        <div class="nin-\\\+"></div>
+        <div class="buki-\\\+"></div>
+        <div class="stamina-\\\+"></div>
+        <div class="gen\\\+"></div>
+        <div class="ele\\\+"></div>
+        <div class="Critt-dmg\\\+"></div>
+        <div class="critt-chane\\\+"></div>
+        <div class="reroll\\\+"></div>
+        <div class="buki-rec\\\+"></div>
+        <div class="buki-boost\\\+"></div>
+        <div class="cant-be-picked"></div>
+        <div class="gen-activation"></div>
+        <div class="ata"></div>
+        <div class="tai"></div>
+        <div class="nin"></div>
+        <div class="buki"></div>
+        <div class="stamina"></div>
+        <div class="gen"></div>
+        <div class="ele"></div>
+        <div class="crittdmg"></div>
+        <div class="chithit"></div>
+        <div class="reroll"></div>
+        <div class="bukirec"></div>
+        <div class="bukiboost"></div>
+        <div class="endu"></div>
+        <div class="gen-acti"></div>
+        <div class="atck-growt"></div>
+        <div class="tai-grow"></div>
+        <div class="nin-grow"></div>
+        <div class="buki-grow"></div>
+        <div class="stam-grow"></div>
+        <div class="gen-grow"></div>
+        <div class="ele-grow"></div>
+        <div class="crittdmg-grow"></div>
+        <div class="critt-hit-grow"></div>
+        <div class="re-roll-grow"></div>
+        <div class="buki-rec-grow"></div>
+        <div class="buki-boost-grow"></div>
+        <div class="endu-grow"></div>
+        <div class="gen-acti-grow"></div>
+        <div class="attack"></div>
+        <div class="Taijutsu"></div>
+        <div class="Ninjutsu"></div>
+        <div class="bukijutsu"></div>
+        <div class="Stamina"></div>
+        <div class="Genjutsu"></div>
+        <div class="Elemental"></div>
+        <div class="Critt-Damage"></div>
+        <div class="Crittical-hit"></div>
+        <div class="Re-Roll"></div>
+        <div class="Bukijutsu-Recovery"></div>
+        <div class="Bukijutsu-Boost"></div>
+        <div class="Endurance"></div>
+        <div class="Genjutsu-activation"></div>
+        <div class="attack-effi"></div>
+        <div class="tai-effi"></div>
+        <div class="nin-effi"></div>
+        <div class="buki-effi"></div>
+        <div class="stamina-effi-\\\%"></div>
+        <div class="gen-effi"></div>
+        <div class="elemental-effi"></div>
+        <div class="critt-dmg-effi-\\\%"></div>
+        <div class="crit-hit-effi-\\\%"></div>
+        <div class="Reroll-effi-\\\%"></div>
+        <div class="buki-rec-effi-\\\%"></div>
+        <div class="buki-boost-effi-\\\%"></div>
+        <div class="endurance-effi-\\\%"></div>
+        <div class="gen-acti-effi-\\\%"></div>
+        <div class="avrage-dmg"></div>
+        <div class="dmg-range"></div>
+        <div class="avrage-dmg-on-critt"></div>
+        <div class="dmg-range-on-critt"></div>
+        <div class="avrage-dmg-output"></div>
+        <div class="lowest-possible-dmg"></div>
+        <div class="highest-possible-dmg"></div>
+        <div class="critt-dmg-output"></div>
+        <div class="lowest-dmg-critt-output"></div>
+        <div class="highest-dmg-output"></div>
+      </div> -->
+<script>
+    //model
+    let html = ``;
+    let app = document.getElementById("test123");
+    let testData;
+
+    updateView();
+    //view
+function updateView() {
+    let html = ``;
+    let enAnnenDataSamling = [];
+    let ettObjekt = {};
+    
+    for(let item in testData){
+        for(let child in testData[item]){
+          
+            //console.log(child); //gives out primary groups
+          for (let childschild in testData[item][child]){
+            console.log("yey",childschild)//gives seal, seal bonus high or low seal. but not stats from the seal . 
+             for(let childchildschild in testData[item][child][childschild]){
+                 //console.log("yey",childchildschild) //seal lvl 0-21 (0=-10 and 21=+10)and the stats with the seal 
+
+             for(let childchildchildschild in testData[item][child][childchildschild]){
+            
+                //if(sjekke etter gitt id her f.eks child.id eller hva - se hva som logges ut)  gi kriterier for hva som skal pushes - om det er en id eller et navn på en key elns
+                //Pushe i arrays
+            html += `
+           ${testData[item][child]} 
+            `;
+            
+            }
+         }
+     }
+    }
+}
+// let enAnnenDataSamling = []; med childchild kan fåt ut alle NinjaID: 
+    app.innerHTML = `<button onclick="testme">hei</button>` + html;
+}
+
+//[0]-[496].Ability.Chakra ETC.gir resultat men som Undefined
+   
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
+
+//usage:
+   
+readTextFile("./nm2ninjas.json", function (text) {
+    var data = JSON.parse(text);
+    console.log(data);
+    html += data.Chakra; 
+    testData = data;
+    //loope ut som F mange loops inni hverandre -
+    updateView();
+});
+ function testme () {  
+}
+ 
+
+
+</script>
+</html>

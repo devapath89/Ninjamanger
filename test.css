@@ -1,0 +1,232 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1.1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [damm] 1fr 1fr;
+    gap: 0px 0px;
+  }
+  
+  .item1 { grid-area: ; }
+.item-2 { grid-area: ; }
+.item-3 { grid-area: ; }
+  .Chakra-cost-cost { grid-area: 1 / 1 / 2 / 2; }
+  
+  .ninja1 { grid-area: 1 / 2 / 2 / 3; }
+  
+  .ninja-ID { grid-area: 1 / 3 / 2 / 4; }
+  
+  .Genin { grid-area: 1 / 4 / 3 / 5; }
+  
+  .the-cost { grid-area: 2 / 1 / 3 / 2; }
+  
+  .lvl { grid-area: 2 / 2 / 3 / 3; }
+  
+  .the-acc-lvl { grid-area: 2 / 3 / 3 / 4; }
+  
+  .quarterable\\\? { grid-area: 3 / 1 / 4 / 2; }
+  
+  .yes-or-no-\\\? { grid-area: 4 / 1 / 5 / 2; }
+  
+  .quarterable2\\\\\\\? { grid-area: 5 / 1 / 6 / 2; }
+  
+  .no-or-yes { grid-area: 6 / 1 / 7 / 2; }
+  
+  .stat-point-used-\\\?d { grid-area: 7 / 1 / 8 / 2; }
+  
+  .used-stats { grid-area: 8 / 1 / 9 / 2; }
+  
+  .statpoints { grid-area: 9 / 1 / 10 / 2; }
+  
+  .seal-\\\(from-10-to-\\\+10\\\) { grid-area: 3 / 2 / 4 / 3; }
+  
+  .seal-lvl { grid-area: 3 / 3 / 4 / 4; }
+  
+  .is-off\\\? { grid-area: 3 / 4 / 4 / 5; }
+  
+  .off-Yo-N-\\\? { grid-area: 4 / 4 / 5 / 5; }
+  
+  .yey-or-no { grid-area: 5 / 4 / 6 / 5; }
+  
+  .off-poss { grid-area: 6 / 4 / 7 / 5; }
+  
+  .Penalty { grid-area: 7 / 4 / 8 / 5; }
+  
+  .Penalty-\\\% { grid-area: 8 / 4 / 9 / 5; }
+  
+  .item1 { grid-area: 4 / 2 / 5 / 3; }
+  
+  .item2 { grid-area: 5 / 2 / 6 / 3; }
+  
+  .item3 { grid-area: 6 / 2 / 7 / 3; }
+  
+  .Blood-line { grid-area: 7 / 2 / 8 / 3; }
+  
+  .BL-lvl { grid-area: 8 / 2 / 9 / 3; }
+  
+  .Stats { grid-area: 9 / 2 / 10 / 4; }
+  
+  .Efficient { grid-area: 9 / 4 / 10 / 5; }
+  
+  .chosen-BL { grid-area: 7 / 3 / 8 / 4; }
+  
+  .chosen-BL-LVl { grid-area: 8 / 3 / 9 / 4; }
+  
+  .cant-be-chosen- { grid-area: 10 / 1 / 11 / 2; }
+  
+  .tai-\\\+ { grid-area: 11 / 1 / 12 / 2; }
+  
+  .nin-\\\+ { grid-area: 12 / 1 / 13 / 2; }
+  
+  .buki-\\\+ { grid-area: 13 / 1 / 14 / 2; }
+  
+  .stamina-\\\+ { grid-area: 14 / 1 / 15 / 2; }
+  
+  .gen\\\+ { grid-area: 15 / 1 / 16 / 2; }
+  
+  .ele\\\+ { grid-area: 16 / 1 / 17 / 2; }
+  
+  .Critt-dmg\\\+ { grid-area: 17 / 1 / 18 / 2; }
+  
+  .critt-chane\\\+ { grid-area: 18 / 1 / 19 / 2; }
+  
+  .reroll\\\+ { grid-area: 19 / 1 / 20 / 2; }
+  
+  .buki-rec\\\+ { grid-area: 20 / 1 / 21 / 2; }
+  
+  .buki-boost\\\+ { grid-area: 21 / 1 / 22 / 2; }
+  
+  .cant-be-picked { grid-area: 22 / 1 / 23 / 2; }
+  
+  .gen-activation { grid-area: 23 / 1 / 24 / 2; }
+  
+  .ata { grid-area: 10 / 2 / 11 / 3; }
+  
+  .tai { grid-area: 11 / 2 / 12 / 3; }
+  
+  .nin { grid-area: 12 / 2 / 13 / 3; }
+  
+  .buki { grid-area: 13 / 2 / 14 / 3; }
+  
+  .stamina { grid-area: 14 / 2 / 15 / 3; }
+  
+  .gen { grid-area: 15 / 2 / 16 / 3; }
+  
+  .ele { grid-area: 16 / 2 / 17 / 3; }
+  
+  .crittdmg { grid-area: 17 / 2 / 18 / 3; }
+  
+  .chithit { grid-area: 18 / 2 / 19 / 3; }
+  
+  .reroll { grid-area: 19 / 2 / 20 / 3; }
+  
+  .bukirec { grid-area: 20 / 2 / 21 / 3; }
+  
+  .bukiboost { grid-area: 21 / 2 / 22 / 3; }
+  
+  .endu { grid-area: 22 / 2 / 23 / 3; }
+  
+  .gen-acti { grid-area: 23 / 2 / 24 / 3; }
+  
+  .atck-growt { grid-area: 10 / 3 / 11 / 4; }
+  
+  .tai-grow { grid-area: 11 / 3 / 12 / 4; }
+  
+  .nin-grow { grid-area: 12 / 3 / 13 / 4; }
+  
+  .buki-grow { grid-area: 13 / 3 / 14 / 4; }
+  
+  .stam-grow { grid-area: 14 / 3 / 15 / 4; }
+  
+  .gen-grow { grid-area: 15 / 3 / 16 / 4; }
+  
+  .ele-grow { grid-area: 16 / 3 / 17 / 4; }
+  
+  .crittdmg-grow { grid-area: 17 / 3 / 18 / 4; }
+  
+  .critt-hit-grow { grid-area: 18 / 3 / 19 / 4; }
+  
+  .re-roll-grow { grid-area: 19 / 3 / 20 / 4; }
+  
+  .buki-rec-grow { grid-area: 20 / 3 / 21 / 4; }
+  
+  .buki-boost-grow { grid-area: 21 / 3 / 22 / 4; }
+  
+  .endu-grow { grid-area: 22 / 3 / 23 / 4; }
+  
+  .gen-acti-grow { grid-area: 23 / 3 / 24 / 4; }
+  
+  .attack { grid-area: 10 / 2 / 11 / 4; }
+  
+  .Taijutsu { grid-area: 11 / 2 / 12 / 4; }
+  
+  .Ninjutsu { grid-area: 12 / 2 / 13 / 4; }
+  
+  .bukijutsu { grid-area: 13 / 2 / 14 / 4; }
+  
+  .Stamina { grid-area: 14 / 2 / 15 / 4; }
+  
+  .Genjutsu { grid-area: 15 / 2 / 16 / 4; }
+  
+  .Elemental { grid-area: 16 / 2 / 17 / 4; }
+  
+  .Critt-Damage { grid-area: 17 / 2 / 18 / 4; }
+  
+  .Crittical-hit { grid-area: 18 / 2 / 19 / 4; }
+  
+  .Re-Roll { grid-area: 19 / 2 / 20 / 4; }
+  
+  .Bukijutsu-Recovery { grid-area: 20 / 2 / 21 / 4; }
+  
+  .Bukijutsu-Boost { grid-area: 21 / 2 / 22 / 4; }
+  
+  .Endurance { grid-area: 22 / 2 / 23 / 4; }
+  
+  .Genjutsu-activation { grid-area: 23 / 2 / 24 / 4; }
+  
+  .attack-effi { grid-area: 10 / 4 / 11 / 5; }
+  
+  .tai-effi { grid-area: 11 / 4 / 12 / 5; }
+  
+  .nin-effi { grid-area: 12 / 4 / 13 / 5; }
+  
+  .buki-effi { grid-area: 13 / 4 / 14 / 5; }
+  
+  .stamina-effi-\\\% { grid-area: 14 / 4 / 15 / 5; }
+  
+  .gen-effi { grid-area: 15 / 4 / 16 / 5; }
+  
+  .elemental-effi { grid-area: 16 / 4 / 17 / 5; }
+  
+  .critt-dmg-effi-\\\% { grid-area: 17 / 4 / 18 / 5; }
+  
+  .crit-hit-effi-\\\% { grid-area: 18 / 4 / 19 / 5; }
+  
+  .Reroll-effi-\\\% { grid-area: 19 / 4 / 20 / 5; }
+  
+  .buki-rec-effi-\\\% { grid-area: 20 / 4 / 21 / 5; }
+  
+  .buki-boost-effi-\\\% { grid-area: 21 / 4 / 22 / 5; }
+  
+  .endurance-effi-\\\% { grid-area: 22 / 4 / 23 / 5; }
+  
+  .gen-acti-effi-\\\% { grid-area: 23 / 4 / 24 / 5; }
+  
+  .avrage-dmg { grid-area: 24 / 1 / 25 / 3; }
+  
+  .dmg-range { grid-area: 25 / 1 / 26 / 3; }
+  
+  .avrage-dmg-on-critt { grid-area: 26 / 1 / damm / 3; }
+  
+  .dmg-range-on-critt { grid-area: damm / 1 / 28 / 3; }
+  
+  .avrage-dmg-output { grid-area: 24 / 3 / 25 / 5; }
+  
+  .lowest-possible-dmg { grid-area: 25 / 3 / 26 / 4; }
+  
+  .highest-possible-dmg { grid-area: 25 / 4 / 26 / 5; }
+  
+  .critt-dmg-output { grid-area: 26 / 3 / damm / 5; }
+  
+  .lowest-dmg-critt-output { grid-area: damm / 3 / 28 / 4; }
+  
+  .highest-dmg-output { grid-area: damm / 4 / 28 / 5; }
+  
