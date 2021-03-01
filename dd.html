@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    let html = ``;
+    let enAnnenDataSamling = [];
+    let ettObjekt = {};
+    
+    for(let item in testData){
+        for(let child in testData[item]){
+          
+            //console.log(child); //gives out primary groups
+          for (let childschild in testData[item][child]){
+            console.log("yey",childschild)//gives seal, seal bonus high or low seal. but not stats from the seal . 
+             for(let childchildschild in testData[item][child][childschild]){
+                 //console.log("yey",childchildschild) //seal lvl 0-21 (0=-10 and 21=+10)and the stats with the seal 
+
+             for(let childchildchildschild in testData[item][child][childchildschild]){
+            
+                //if(sjekke etter gitt id her f.eks child.id eller hva - se hva som logges ut)  gi kriterier for hva som skal pushes - om det er en id eller et navn på en key elns
+                //Pushe i arrays
+            html += `
+           ${testData[item][child]} 
+            `;
+            
+            }
+         }
+     }
+    }
+}
+// let enAnnenDataSamling = []; med childchild kan fåt ut alle NinjaID: 
+    app.innerHTML = `<button onclick="testme">hei</button>` + html;
+}
+
+//[0]-[496].Ability.Chakra ETC.gir resultat men som Undefined
+   
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
+
+//usage:
+   
+readTextFile("./nm2ninjas.json", function (text) {
+    var data = JSON.parse(text);
+    console.log(data);
+    html += data.Chakra; 
+    testData = data;
+    //loope ut som F mange loops inni hverandre -
+    updateView();
+});
+ function testme () {  
+}
+</body>
+</html>

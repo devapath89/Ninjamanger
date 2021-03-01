@@ -1,13 +1,18 @@
 .grid-container {
     display: grid;
+    position:absolute;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1.1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr [damm] 1fr 1fr;
     gap: 0px 0px;
+    border:4px solid black
+    
   }
   
-  .item1 { grid-area: ; }
-.item-2 { grid-area: ; }
-.item-3 { grid-area: ; }
+.item-1 { grid-area:4 /3/ 4/ 3 ; }
+.item-2 { grid-area:5 / 3 / 5 / 3 ; }
+.item-3 { grid-area:6 / 3/ 6 / 3 ; }
+
+
   .Chakra-cost-cost { grid-area: 1 / 1 / 2 / 2; }
   
   .ninja1 { grid-area: 1 / 2 / 2 / 3; }
@@ -22,11 +27,11 @@
   
   .the-acc-lvl { grid-area: 2 / 3 / 3 / 4; }
   
-  .quarterable\\\? { grid-area: 3 / 1 / 4 / 2; }
+  .quarterable\? { grid-area: 3 / 1 / 4 / 2; }  
   
-  .yes-or-no-\\\? { grid-area: 4 / 1 / 5 / 2; }
+  .yes-or-no-{ grid-area: 4 / 1 / 5 / 2; }
   
-  .quarterable2\\\\\\\? { grid-area: 5 / 1 / 6 / 2; }
+  .quarterable2\? { grid-area: 5 / 1 / 6 / 2; }
   
   .no-or-yes { grid-area: 6 / 1 / 7 / 2; }
   
@@ -52,11 +57,11 @@
   
   .Penalty-\\\% { grid-area: 8 / 4 / 9 / 5; }
   
-  .item1 { grid-area: 4 / 2 / 5 / 3; }
+  .item1 { grid-area: 4 / 2 ;  }
   
-  .item2 { grid-area: 5 / 2 / 6 / 3; }
+  .item2 { grid-area: 5 / 2 ;  }
   
-  .item3 { grid-area: 6 / 2 / 7 / 3; }
+  .item3 { grid-area: 6 / 2  ; }
   
   .Blood-line { grid-area: 7 / 2 / 8 / 3; }
   
@@ -226,7 +231,8 @@
   
   .critt-dmg-output { grid-area: 26 / 3 / damm / 5; }
   
-  .lowest-dmg-critt-output { grid-area: damm / 3 / 28 / 4; }
+  .lowest-critt-output { grid-area: damm / 3 / 28 / 4; }
   
-  .highest-dmg-output { grid-area: damm / 4 / 28 / 5; }
+  .highest-critt-output { grid-area: damm / 4 / 28 / 5; }
+ 
   
