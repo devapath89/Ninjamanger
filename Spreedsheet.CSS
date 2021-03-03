@@ -4,3 +4,30 @@
     border: 2px solid hotpink;
 
 } 
+.ata { grid-area: 10 / 2 / 11 / 3; }
+  
+  .tai { grid-area: 11 / 2 / 12 / 3; }
+  
+  .nin { grid-area: 12 / 2 / 13 / 3; }
+  
+  .buki { grid-area: 13 / 2 / 14 / 3; }
+  
+  .stamina { grid-area: 14 / 2 / 15 / 3; }
+  
+  .gen { grid-area: 15 / 2 / 16 / 3; }
+  
+  .ele { grid-area: 16 / 2 / 17 / 3; }
+  
+  .crittdmg { grid-area: 17 / 2 / 18 / 3; }
+  
+  .chithit { grid-area: 18 / 2 / 19 / 3; }
+  
+  .reroll { grid-area: 19 / 2 / 20 / 3; }
+  
+  .bukirec { grid-area: 20 / 2 / 21 / 3; }
+  
+  .bukiboost { grid-area: 21 / 2 / 22 / 3; }
+  
+  .endu { grid-area: 22 / 2 / 23 / 3; }
+  
+  .gen-acti { grid-area: 23 / 2 / 24 / 3; }
