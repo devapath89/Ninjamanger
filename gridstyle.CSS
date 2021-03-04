@@ -1,0 +1,100 @@
+.grid-container {
+  border: 4px solid black;
+}
+.lvl,.the-lvl{
+  background-color: paleturquoise;
+}
+.seal,.the-seal{
+  background-color: palevioletred;
+}
+.Genin {
+  background-color: aqua;
+}
+.Chakra-cost,.The-Cost {
+  background-color:lightgray;
+}
+.ninja-1 {
+  background-color: lightgreen;
+}
+.NinjaID {
+  background-color: lightpink;
+}
+
+.stats,.Stats-points{
+  background-color: lightsalmon;
+}
+.item1,.item2,.item3{
+  border: 1px solid black;
+  background-color: khaki;
+}
+.item-1,.item-2,.item-3{
+  border: 1px solid black;
+  background-color: khaki;
+}
+
+
+.Ninjutsu,.Bukijutsu,.Stamina,.Genjutsu,.Elemental,.Crittical-Damage,.Crittical-hit,.Reroll,.Bukijutsu-Recovery,.Bukijutsu-Boost,.Endurance,.Gen-Activation{
+  border: 1px solid black;
+  background-color: lightsalmon;
+}
+.Attack,.Taijutsu{
+  border: 1px solid black;
+  background-color: lightsalmon;
+}
+
+.Quaterable,.yey,.onefoourth,.neh{
+  border: 1px solid black;
+  }
+  .Quaterable,.yey{
+    background-color: hotpink;
+  }
+  .onefoourth,.neh{
+    background-color: indianred;
+  }
+  .Bloodline,.BL-name,.BL-lvL,.The-BL-lvl{
+    background-color:darkred;
+  }
+  .Bloodline{
+    border: 2px solid white;
+  }
+  .Avrage-hit{
+    background-color: blue;
+  }
+  .Avrage-Critt{
+background-color: steelblue;
+  }
+   .High,.High-crit{
+    background-color: gold;
+  }
+  .low-dmg,.low-crit{
+    background-color:rgb(253, 165, 165);
+  }
+  .Damage-Range-with-Crittical-Hit{
+    background-color: royalblue;
+  }
+  .Avrage-DMG{
+    background-color: seagreen;
+  }
+  .Avrage-Dmg-on-critt{
+    background-color: sienna;
+  }
+  .Damage-range{
+    background-color: skyblue;
+  }
+  .Effi,.Atk-effi,.Tai-effi,.Nin-effi,.Buki-effi,.Stam-effi,.Gen-effi,.Ele-effi,.Critt-dmg-effi,.Crit-hit,.Reroll-effi,.Bukirec-effi,.Bukiboob-effi,.Endu-effi,.Gen-act-effi{
+    background-color: teal;
+  }
+  .penalty,.pen-{
+    background-color: violet;
+  }
+
+  .Atk,.Tai,.Nin,.Buki,.Stam,.Gen,.Elel,.CrittDmg,.CritHit,.ReRoll,.Bukirec,.BukiBoob,.Endu,.Gen-act{
+    background-color: salmon;
+  }
+
+  .NA,.Tai-used,.Nin-Used,.Buki-used,.Stam-used,.Gen-used,.Ele-used,.Critt-dmg-used,.Critthit-used,.Reroll-used,.Buki-rec-used,.Biki-bo-used,.Na,.Gen-act-used{
+    background-color: rgba(250, 128, 114, 0.637);
+  }
+
+
+

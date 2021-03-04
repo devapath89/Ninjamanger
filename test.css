@@ -1,19 +1,19 @@
 .grid-container {
   display: grid;
+  position: fixed;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
-  grid-template-areas:
-    "Chakra-cost ninja-1 NinjaID Genin"
+  grid-template-areas:"Chakra-cost ninja-1 NinjaID Genin"
     "The-Cost lvl the-lvl Genin"
-    "Quaterable-\\\? seal the-seal is-off-"
+    "Quaterable seal the-seal is-off-"
     "yey item1 item-1 an-yes-or-no"
     "onefoourth item2 item-2 off-poss"
     "neh item3 Item-3 penalty"
     "stat-point-used Bloodline BL-name penalty"
-    "numer-of-\\\+-stats-used BL-lvL The-BL-lvl pen-\\\\\\\%"
+    "numer-of-stats-used BL-lvL The-BL-lvl pen-"
     "STats-points stats stats Effi"
-    "N\\\/A Attack Atk Atk-effi"
+    "NA Attack Atk Atk-effi"
     "Tai-used Taijutsu Tai Tai-effi"
     "Nin-Used Ninjutsu Nin Nin-effi"
     "Buki-used Bukijutsu Buki Buki-effi"
@@ -21,11 +21,11 @@
     "Gen-used Genjutsu Gen Gen-effi"
     "Ele-used Elemental Elel Ele-effi"
     "Critt-dmg-used Crittical-Damage CrittDmg Critt-dmg-effi"
-    "Critthit-used Crittical-hit CritHit Crit-hit-\\\%"
+    "Critthit-used Crittical-hit CritHit Crit-hit"
     "Reroll-used Reroll ReRoll Reroll-effi"
     "Buki-rec-used Bukijutsu-Recovery Bukirec Bukirec-effi"
     "Biki-bo-used Bukijutsu-Boost BukiBoob Bukiboob-effi"
-    "N\\\/A Endurance Endu Endu-effi"
+    "Na Endurance Endu Endu-effi"
     "Gen-act-used Gen-Activation Gen-act Gen-act-effi"
     "div div3 div5 div7"
     "div2 div4 div6 div8"
@@ -36,15 +36,14 @@
     "Avrage-DMG Avrage-DMG Avrage-hit Avrage-hit"
     "Damage-range Damage-range low-dmg High"
     "Avrage-Dmg-on-critt Avrage-Dmg-on-critt Avrage-Critt Avrage-Critt"
-    "Damage-Range-with-Crittical-Hit Damage-Range-with-Crittical-Hit low-crit High-crit"
-   ;
+    "Damage-Range-with-Crittical-Hit Damage-Range-with-Crittical-Hit low-crit High-crit";
 }
 
 .Chakra-cost { grid-area: Chakra-cost; }
 
 .The-Cost { grid-area: The-Cost; }
 
-.Quaterable-\\\? { grid-area: Quaterable-\\\?; }
+.Quaterable { grid-area: Quaterable; }
 
 .yey { grid-area: yey; }
 
@@ -54,7 +53,7 @@
 
 .stat-point-used { grid-area: stat-point-used; }
 
-.numer-of-\\\+-stats-used { grid-area: numer-of-\\\+-stats-used; }
+.numer-of-stats-used { grid-area: numer-of-stats-used; }
 
 .ninja-1 { grid-area: ninja-1; }
 
@@ -72,7 +71,7 @@
 
 .item-2 { grid-area: item-2; }
 
-.Item-3 { grid-area: Item-3; }
+.item-3 { grid-area: Item-3; }
 
 .NinjaID { grid-area: NinjaID; }
 
@@ -98,7 +97,7 @@
 
 .The-BL-lvl { grid-area: The-BL-lvl; }
 
-.pen-\\\\\\\% { grid-area: pen-\\\\\\\%; }
+.pen { grid-area: pen; }
 
 .STats-points { grid-area: Stats-points; }
 
@@ -106,7 +105,7 @@
 
 .Effi { grid-area: Effi; }
 
-.N\\\/A { grid-area: N\\\/A; }
+.NA { grid-area: NA; }
 
 .Attack { grid-area: Attack; }
 
@@ -160,7 +159,7 @@
 
 .Biki-bo-used { grid-area: Biki-bo-used; }
 
-.N\\\/A { grid-area: N\\\/A; }
+.Na { grid-area: Na; }
 
 .Gen-act-used { grid-area: Gen-act-used; }
 
@@ -206,7 +205,7 @@
 
 .Critt-dmg-effi { grid-area: Critt-dmg-effi; }
 
-.Crit-hit-\\\% { grid-area: Crit-hit-\\\%; }
+.Crit-hit { grid-area: Crit-hit; }
 
 .Reroll-effi { grid-area: Reroll-effi; }
 
