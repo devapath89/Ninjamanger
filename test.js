@@ -18102,7 +18102,29 @@ const narutos = ninjas.filter((ninja) => {
  return ninja.Identifier.startsWith('naruto');
 });
 const sortedByChakra = ninjas.sort((a,b) => a.Chakra - b.Chakra);
-let  Ninja = ninjas.filter(Ninja => Ninja.NinjaName== "zetsu");
+// let  Ninja = ninjas.filter(Ninja => Ninja.NinjaName== "zetsu");
   
   console.log(Ninja)
+
+  function search() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+let  oldEnoughForCar = ninjas.filter(Ninja => Ninja.NinjaName== "zetsu");
+  
+  console.log(oldEnoughForCar)
+  
+
 
