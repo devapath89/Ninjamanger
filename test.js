@@ -18104,7 +18104,7 @@ const narutos = ninjas.filter((ninja) => {
 const sortedByChakra = ninjas.sort((a,b) => a.Chakra - b.Chakra);
 let  Ninja = ninjas.filter(Ninja => Ninja.NinjaName== "zetsu");
   
-//   console.log(Ninja)
+   console.log(Ninja)
 
 //   function search() {
 //     var input, filter, ul, li, a, i, txtValue;
