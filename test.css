@@ -1,3 +1,8 @@
+#searchResults{
+  height: 200px;
+  overflow-y: scroll;
+  width:300px;
+}
 .grid-container {
   display: grid;
   position: fixed;

@@ -1,6 +1,10 @@
-const ninjas = JSON.parse(`[
-  
-  { 
+function search (searchText){
+
+}
+
+// let searchText;
+const ninjas = [
+  {
     "Chakra": 20,
     "Position": 2,
     "Seal": 7,
@@ -18085,29 +18089,27 @@ const ninjas = JSON.parse(`[
     "Identifier": "zetsu-plant-jounin",
     "NinjaName": "zetsu"
   }
-]`);
-ninjas.map((ninja) => {
-//   console.log('ninja data for ', ninja.Identifier);
-//   console.log('has chakra ',ninja.Chakra)
-//   console.log('has seal ', ninja.Seal);
-//   console.log('ninja data for',ninja.Growth )
-//   console.log('ninja data for',ninja.Stats )
-//   console.log('ninja data for',ninja.Ability )
-//   console.log('ninja data for ',ninja.NinjaName)
-//   console.log ('ninja has',ninja.SealBonus)
-//   console.log('ninja has id',ninja.NinjaID)
-//   console.log('ninja has fixed chakra',ninja.FixedChakra)
-}); 
-const summons = ninjas.filter((ninja) => ninja.Summon === true);
-const narutos = ninjas.filter((ninja) => {
- return ninja.Identifier.startsWith('naruto');
- searchText: null,
-});
-const sortedByChakra = ninjas.sort((a,b) => a.Chakra - b.Chakra);
-let  Ninja = ninjas.filter(Ninja => Ninja.NinjaName== "zetsu");
-const ninjas
-   console.log(Ninja)
+]
+// ninjas.map((ninja) => {
+// //   console.log('ninja data for ', ninja.Identifier);
+// //   console.log('has chakra ',ninja.Chakra)
+// //   console.log('has seal ', ninja.Seal);
+// //   console.log('ninja data for',ninja.Growth )
+// //   console.log('ninja data for',ninja.Stats )
+// //   console.log('ninja data for',ninja.Ability )
+// //   console.log('ninja data for ',ninja.NinjaName)
+// //   console.log ('ninja has',ninja.SealBonus)
+// //   console.log('ninja has id',ninja.NinjaID)
+// //   console.log('ninja has fixed chakra',ninja.FixedChakra)
+// }); 
+// const summons = ninjas.filter((ninja) => ninja.Summon === true);
+// const narutos = ninjas.filter((ninja) => {
+//  return ninja.Identifier.startsWith('naruto');
+//  searchText: null,
+// });
+// const sortedByChakra = ninjas.sort((a,b) => a.Chakra - b.Chakra);
+// let  Ninja = ninjas.filter(Ninja => Ninja.NinjaName== "zetsu");
+// const ninjas
+//    console.log(Ninja)
 
- 
 
-       

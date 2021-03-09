@@ -14,9 +14,9 @@
 </head>
 <body>
         
-
+<div id="searchResults"></div>
     <!-- <div id="test123"> -->
-        <div class="grid-container">
+        <div id="mainGrid" class="grid-container">
             <div class="Chakra-cost"><b>Cost</b></div>
             <div class="The-Cost">the cost</div>
             <div class="Quaterable">is it Quaterable?</div>
@@ -34,7 +34,7 @@
             <div class="item-1">item used</div>
             <div class="item-2">item used</div>
             <div class="item-3">item used</div>
-            <div class="NinjaID"><input type="text" id="myInput" onkeyup="search()" placeholder="Search for names.." title="Type in a name"> </div>
+            <div class="NinjaID"><input type="text" id="myInput" onkeyup="searchText=this.value; updateView()" placeholder="Search for names.." title="Type in a name"> </div>
             <div class="the-lvl">the lvl used</div>
             <div class="the-seal">the seal used</div>
             <div class="Genin"><b>Genin slot</b></div>
@@ -142,16 +142,71 @@
             <div class="High-crit"><b>High-crit</b></div>
           </div>
     
-<!-- <script>
-    //model
-    let html = ``;
-    let app = document.getElementById("test123");
-    let testData;
 
-    updateView();
-    //view
-function updateView() {}
-</script> -->
+          
+- 
+
+
+
+            <script>    
+  //model
+
+            let searchText;
+
+            //view
+     updateView();
+        function updateView() {
+            let myNinjas = ninjas;
+            if (searchText) {
+                myNinjas = ninjas.filter(ninjaObj => ninjaObj.NinjaName.includes(searchText));
+                
+                
+                myNinjas= filterNinjas(ninjas);
+            }
+
+            let html = '';
+            for (let i = 0; i < myNinjas.length; i++) {
+                let ninjaObj = myNinjas[i];
+                html += `<button onclick="select(${ninjaObj.NinjaID})">${ninjaObj.NinjaName}</button><br/>`;
+            }
+            document.getElementById('searchResults').innerHTML = html;
+        }
+
+        //  function updateView2() {
+        //      document.getElementById('searchResults').innerHTML =
+        //          ninjas.filter(ninjaObj => !searchText || ninjaObj.NinjaName.includes(searchText))
+        //                .map(ninjaObj => `<li>${ninjaObj.NinjaName}</li>`)
+        //                .join('');
+        //  }
+
+
+            function filterNinjas(list){
+                return list.filter(ninjaObj => ninjaObj.NinjaName.includes(searchText))
+            }
+
+        function filterNinja(list) {
+            return ninjaObj.NinjaName.includes(searchText);{
+               
+            }
+        }
+       
+
+        function filterNinjas2(list) {
+            let newList =[];
+            for(let ninjaObj of list){
+                if (ninjaObj => ninjaObj.NinjaName.includes(searchText))
+                newList.push(ninjaObj);
+            }
+            return newList;
+         }   
+         
+
+         
+    
+   
+
+    
+</script> 
 
 
 
